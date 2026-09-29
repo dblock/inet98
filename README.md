@@ -36,6 +36,12 @@ The site, `www.inet98.ch`, was the attendees' guide to the conference network. I
 
 ![Inet 98 Launcher demo](app/inet98-launcher.gif)
 
+## License
+
+The launcher in [app/](app/), its build and demo scripts are released under the [MIT License](LICENSE). The exceptions are a few Delphi Runtime Library units, which are © 1996 Borland International.
+
+The website is a historical archive of the INET '98 network site, preserved as it was in 1998. It isn't covered by the MIT License. Trademarks, logos and product icons belong to their respective owners.
+
 ## References
 
 * [INET'98, juillet 1998](https://www.unige.ch/presse/communique/97-98/inet%2798-07.98.html) is the University of Geneva's press release (in French) about its role.
