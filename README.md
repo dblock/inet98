@@ -30,7 +30,7 @@ The site, `www.inet98.ch`, was the attendees' guide to the conference network. I
 
 ## The Launcher
 
-[app/](app/) is the Inet 98 Launcher. It's the "Software Launcher replacing Explorer" that ran on every public PC. It's a Delphi 3 program that shows a bar of buttons for the installed applications. It also has an idle screen saver, automatic reboot to reset each machine, and a remote-control TCP server for the staff.
+[app/](app/) is the Inet 98 Launcher. It's the "Software Launcher replacing Explorer" that ran on every public PC. It was written by [Daniel Doubrovkine](https://github.com/dblock) (dB.) at the University of Geneva. It's a Delphi 3 program that shows a bar of buttons for the installed applications. It also has an idle screen saver, automatic reboot to reset each machine, and a remote-control TCP server for the staff.
 
 [app/original/](app/original/) holds the 1998 source. [app/ported/](app/ported/) holds a Free Pascal and Lazarus port that builds and runs on macOS under Wine. See [app/README.md](app/README.md) for details.
 

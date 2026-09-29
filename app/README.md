@@ -15,7 +15,7 @@ The University of Geneva provided about 250 computers for the conference. The pu
 
 The bar also has an Internet Society logo, an INET 98 logo, a clock, and **Auto-Hide** and **Auto-Reboot** checkboxes.
 
-It was written by Daniel Doubrovkine in Delphi 3, using his own `TSprite` animated-button component and shared `d32` helper units. The version string is `1.2207`, and the files are dated 13–16 July 1998.
+It was written by [Daniel Doubrovkine](https://github.com/dblock) (dB.) at the University of Geneva, in Delphi 3, using his own `TSprite` animated-button component and shared `d32` helper units. The version string is `1.2207`, and the files are dated 13–16 July 1998.
 
 ![Inet 98 Launcher running under Wine on macOS](inet98-launcher.png)
 
