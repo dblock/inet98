@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Ported launcher build output (app/scripts/build.sh). The release build in
+# app/ported/bin/ is committed; the debug build and unit output are not.
+app/ported/bin/inet98-debug.exe
+app/ported/lib/
+
+# Free Pascal / Lazarus intermediates
+*.ppu
+*.o
+*.or
+*.compiled
+backup/
