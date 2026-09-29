@@ -1,0 +1,89 @@
++screen saver picture "bar/screen.bmp" or "screen.bmp" in the same dir as the bar
+
++bar/options:
+
+ files with the following names force action at startup (only)
+
+ # noautoreboot - do not automatically reboot, default is DO AUTOREBOOT
+ # autohide - autohide bar, default is NO AUTOHIDE
+ # nosocket - lock socket connections, default is DO ALLOW SOCKET CONNECTIONS
+ # noscreensaver - do not pop screensaver, default is POP SCREENSAVER
+ # canclose - allow bar closure from windows 
+ # taskshow - show in the task bar and on the windows start bar
+
++hidden commands with password:
+
+	type - command [enter]: ex: "-term"+Enter
+ 
+ # term 	- terminate bar
+ # shell 	- launch any command (prompted)
+ # hide 	- show/hide autoreboot option
+ # boot 	- reboot PC, immediate
+ # stats 	- show timeout counters
+ # lock 	- lock socket connections
+
++timeouts:
+
+ # initial activity timer = 2 mins
+ # screen saver popup timer = 2 mins
+ # reboot inactivity timer = 5 mins
+ # remote message autoclose = 10 seconds
+ # remote password failures = 3 times
+
++remote admin, telnet to port 895
+
+ First reply header: 
+
+  InetServer Ready ...
+  please identify yourself:
+  [password input]
+  Good morning dave!
+
+ # TERM		- terminate bar
+ # SHELL	- launch explorer.exe
+ # COMMAND	- launch command.com
+ # TELNET	- launch telnet.exe
+ # SHOW		- show bar
+ # HIDE		- hide bar
+ # BOOT		- boot (conditional)
+ # BOOTNOW	- boot (unconditional)
+ # POWEROFF	- turn power off (conditional)
+ # POWEROFFNOW	- turn power off (unconditional)
+ # AUTOHIDE	- toggle autohide
+ # AUTOREBOOT	- toggle autoreboot
+ # MSG ...	- send a non modal message
+ # MODAL ...	- send a modal message
+ # STAT		- get remote machine stats
+ # SAVER	- screen saver pop
+ # LOCK		- block socket connexions
+ # SOUND ...	- play a sound (valid file in parameter)
+ # HELP		- this help screen
+
+ returned is a command echo followed by
+ CODE ACRONYM - HUMAN DESCRIPTION
+ 
+ Error Codes:
+
+ 00 OK - successful command
+ 01 Error - invalid (unknown) command
+ 
+ 02 Stats - response to STAT, followed by
+ IP (NAME)
+ MACHINENAME is running on PROCESSOR DESCR
+ under OSDESCR (build BUILD)
+ Total memory : PHMEM (physical) SWAPMEM (page file)
+ Free memory : PHMEM (physical) SWAPMEM (page file)
+ Inactivity timer: KEYS/INITIAL COUNTER    
+
+ 03 Reject - (cnt: ...) password rejected
+
+ QUIT does not reply with a code, but with "Thank you for your time, cya."
+
++ bar-client - TCP client
+
+ # syntax: bar-client.SunOS <REMOTE> <PASSWD> <COMMAND>
+
+   <REMOTE> 	- remote IP or name
+   <PASSWD> 	- bar password
+   <COMMAND> 	- command of remote admin
+		(all arguments following command are appended with a leading space)
