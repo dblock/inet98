@@ -1,0 +1,94 @@
+<html>
+
+  <head>
+		<style>
+			A:link {text-decoration: none}
+			A:visited {text-decoration: none}
+			A:active {text-decoration: none}
+			A {text-decoration: none }
+			BODY {font-family: Arial }
+		</style>
+    <title>Search the Inet 98' Web Site</title>
+  </head>
+	
+  <BODY TEXT="#000000" BGCOLOR="#FFFFFF" LINK="#0000EF" VLINK="#51188E" ALINK="#FF0000" BACKGROUND="../images/background/bg_background.gif">
+			<table width="100%">
+				<tr><td align="center">
+						<A HREF="http://cuiwww.unige.ch"><IMG SRC="../images/weconnectyou-small2.gif" HEIGHT="116" WIDTH="152" ALIGN="ABSCENTER" border="0"></A>						
+						<br><br>
+						<A HREF="http://www.isoc.org/inet98"><IMG SRC="../images/inet_98.gif" HEIGHT="116" WIDTH="131" ALIGN="ABSCENTER" border="0"></A>
+					</td><td>
+						<font size="-1">
+						<FORM method=get ACTION="/cgi-bin/webglimpse">
+							<input type="hidden" name="localcopy" value="n">
+							<input type="hidden" name="pathinfo" value="/export/soft/apache/htdocs/webglimpse">
+							search for: <INPUT NAME="query" size=30>
+							<INPUT TYPE="submit" VALUE="Submit">
+							<hr>
+							<br><INPUT NAME=case TYPE=checkbox> case&#160;sensitive
+							<br><INPUT NAME=whole TYPE=checkbox> partial&#160;match
+							<br><INPUT NAME=lines TYPE=checkbox> jump&#160;to&#160;line
+							<br><SELECT NAME="errors">
+								<OPTION>0
+								<OPTION>1
+								<OPTION>2
+							</SELECT> misspellings&#160;allowed
+							<br>return only files modified within the last <INPUT NAME=age size=5> days.
+							<br>
+							maximum number of files returned:
+							<SELECT NAME=maxfiles>
+								<OPTION>10
+								<OPTION selected>50
+								<OPTION>100
+								<OPTION>1000
+							</SELECT>
+							<br>maximum number of matches per file returned:
+							<SELECT NAME=maxlines>
+								<OPTION>10
+								<OPTION selected>30
+								<OPTION>50
+								<OPTION>500
+							</SELECT>
+						</FORM>	    
+						<hr>
+						<form ACTION="/cgi-bin/agnes?InetAgnes+InetAgnesHTMLSearch" METHOD="POST">
+							<input type="hidden" name="action" value="search">
+							<table>
+								<tr>
+							
+									<td ALIGN="center"><font size="-1">search the Q&amp;A forum: <input TYPE="text" SIZE="30" NAME="search"></font></td>						
+									<td>
+										<font size="-1"><input TYPE="submit" NAME="submit_search" VALUE="Search!"></font>
+									</td>
+								</tr>
+							</table>
+							<table>
+								<tr>
+									<td ALIGN="right" WIDTH="50%"><font size="-1">titles only <input TYPE="checkbox" NAME="search_titles"><br>
+											archives <input TYPE="checkbox" NAME="search_archives"></font></td>
+									<td ALIGN="left" WIDTH="50%"><font size="-1"><input TYPE="checkbox" NAME="search_whole_only"> whole words only<br>
+											<input TYPE="checkbox" NAME="search_case_sens"> case sensitive</font>
+									</td>
+								</tr>
+							</table>
+						</form>
+
+					</font>
+						<hr>
+					</td></tr>			
+				
+      </table>		
+
+      <CENTER>				
+				<FONT SIZE=-2>
+					Search Engine is <a href="http://glimpse.cs.arizona.edu/webglimpse">WebGlimpse</a> Copyright &copy; 1996, University of Arizona
+					<br><a href="http://glimpse.cs.arizona.edu/webglimpse"><img src="../images/glimpse.gif" width="150" border="0"></a>
+					<br><br>
+					Copyright &copy; 1998 CUI (University of Geneva)
+					<br><a href="http://cuiwww.unige.ch">http://cuiwww.unige.ch</a>
+					<br><br>
+					<a href="http://cuiwww.unige.ch"><img border="0" src="../images/sponsor/cui2.gif" width="85"></a>
+				</FONT></CENTER>
+			
+  </body>
+</html>

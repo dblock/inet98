@@ -1,0 +1,112 @@
+Starting from url: http://www.inet98.ch/ as dir: /export/soft/apache/htdocs/
+ Accepted: http://www.inet98.ch/forum/article.html
+ Accepted: http://www.inet98.ch/forum/follow.html
+ Accepted: http://www.inet98.ch/forum/header.html
+ Accepted: http://www.inet98.ch/forum/postnew.html
+ Accepted: http://www.inet98.ch/forum/preview.html
+ Accepted: http://www.inet98.ch/forum/search.html
+ Accepted: http://www.inet98.ch/forum/split.html
+Not indexing http://www.inet98.ch/forum/blank.gif; excluded.
+Not indexing http://www.inet98.ch/forum/powered_mv4.gif; excluded.
+Not indexing http://www.inet98.ch/forum/hot/hot1.gif; excluded.
+Not indexing http://www.inet98.ch/forum/hot/hot2.gif; excluded.
+Not indexing http://www.inet98.ch/forum/hot/hot3.gif; excluded.
+ Accepted: http://www.inet98.ch/forum/index.html
+ Accepted: http://www.inet98.ch/forum/agnes.html
+ Accepted: http://www.inet98.ch/buttoncontrol/buttons.class
+ Accepted: http://www.inet98.ch/buttoncontrol/myButton.class
+ Accepted: http://www.inet98.ch/buttoncontrol/siteindex.html
+ Accepted: http://www.inet98.ch/buttoncontrol/siteindex.sav
+Not indexing http://www.inet98.ch/images/inet_98.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/teleglobe.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/anixter.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/cisco.gif; excluded.
+ Accepted: http://www.inet98.ch/images/sponsor/dante.GIF
+Not indexing http://www.inet98.ch/images/sponsor/flag2.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/apple.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/sun.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/switch.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/unige.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/incom.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/sun2.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/unige2.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/cui.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/ie.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/ie2.gif; excluded.
+ Accepted: http://www.inet98.ch/images/sponsor/pspbrwse.jbf
+Not indexing http://www.inet98.ch/images/sponsor/dante2.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/flag.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/cisco2.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/switch1.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/switch2.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/cui2.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/logo.gif; excluded.
+Not indexing http://www.inet98.ch/images/sponsor/newbridge.gif; excluded.
+Not indexing http://www.inet98.ch/images/inet98.gif; excluded.
+Not indexing http://www.inet98.ch/images/background/title.gif; excluded.
+Not indexing http://www.inet98.ch/images/background/gradient.gif; excluded.
+Not indexing http://www.inet98.ch/images/background/background.gif; excluded.
+Not indexing http://www.inet98.ch/images/background/bg_background.gif; excluded.
+Not indexing http://www.inet98.ch/images/configuration/explorerMail.gif; excluded.
+Not indexing http://www.inet98.ch/images/configuration/netscapeIdentity.gif; excluded.
+Not indexing http://www.inet98.ch/images/configuration/netscapeMailServer.gif; excluded.
+Not indexing http://www.inet98.ch/images/configuration/netscape.gif; excluded.
+Not indexing http://www.inet98.ch/images/configuration/ie2.gif; excluded.
+Not indexing http://www.inet98.ch/images/configuration/ip.gif; excluded.
+Not indexing http://www.inet98.ch/images/welcome/apache.gif; excluded.
+Not indexing http://www.inet98.ch/images/addrIP/dhcpmac.gif; excluded.
+Not indexing http://www.inet98.ch/images/addrIP/dns.gif; excluded.
+Not indexing http://www.inet98.ch/images/addrIP/ip.gif; excluded.
+Not indexing http://www.inet98.ch/images/addrIP/tcp.gif; excluded.
+Not indexing http://www.inet98.ch/images/addrIP/tcpIPmac.gif; excluded.
+Not indexing http://www.inet98.ch/images/plan/rez.gif; excluded.
+Not indexing http://www.inet98.ch/images/plan/sous_sol.gif; excluded.
+Not indexing http://www.inet98.ch/images/plan/premier2.gif; excluded.
+Not indexing http://www.inet98.ch/images/plan/premier.gif; excluded.
+Not indexing http://www.inet98.ch/images/plan/rez2.gif; excluded.
+Not indexing http://www.inet98.ch/images/plan/sous_sol2.gif; excluded.
+Not indexing http://www.inet98.ch/images/plan/weconnect2.gif; excluded.
+Not indexing http://www.inet98.ch/images/inetk.gif; excluded.
+Not indexing http://www.inet98.ch/images/inet_logo.gif; excluded.
+Not indexing http://www.inet98.ch/images/glimpse.gif; excluded.
+Not indexing http://www.inet98.ch/images/weconnect.gif; excluded.
+Not indexing http://www.inet98.ch/images/weconnect2.gif; excluded.
+Not indexing http://www.inet98.ch/images/weconnectyou-small.gif; excluded.
+Not indexing http://www.inet98.ch/images/weconnectyou-small2.gif; excluded.
+ Accepted: http://www.inet98.ch/index.html
+ Accepted: http://www.inet98.ch/pages/welcome.html
+ Accepted: http://www.inet98.ch/pages/default.html
+ Accepted: http://www.inet98.ch/pages/plan.html
+ Accepted: http://www.inet98.ch/pages/sponsor.html
+ Accepted: http://www.inet98.ch/pages/configuration.html
+ Accepted: http://www.inet98.ch/pages/equipment.html
+ Accepted: http://www.inet98.ch/pages/addressIP.html
+ Accepted: http://www.inet98.ch/pages/gradient.html
+ Accepted: http://www.inet98.ch/pages/speakers.html
+ Accepted: http://www.inet98.ch/pages/search.html
+ Accepted: http://www.inet98.ch/pages/application.html
+Not indexing http://www.inet98.ch/webglimpse/wgreindex; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.glimpse-eye.jpg; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.glimpse_filehash; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.glimpse_filehash_index; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.glimpse_filenames; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.glimpse_filenames_index; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.glimpse_filetimes; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.glimpse_filetimes.index; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.glimpse_filters; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.glimpse_index; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.glimpse_messages; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.glimpse_partitions; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.glimpse_statistics; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.glimpse_turbo; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.wg_err; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.wg_log; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.wg_madenh; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.wg_toindex; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.wgall.html; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.wgbox.html; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.wgfilter-box; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.wgfilter-index; excluded.
+Not indexing http://www.inet98.ch/webglimpse/.wgmapfile; excluded.
+Not indexing http://www.inet98.ch/webglimpse/archive.cfg; excluded.
+Not indexing http://www.inet98.ch/webglimpse/indexing-in-progress; excluded.

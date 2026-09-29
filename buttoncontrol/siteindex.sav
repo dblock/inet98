@@ -1,0 +1,52 @@
+<html>
+
+<head>
+<title>Inet'98</title>
+<meta name="GENERATOR" content="University of Geneva">
+<base target="rbottom">
+</head>
+
+<BODY BGCOLOR="#000000" TEXT="#000000" LINK="#0000ff" VLINK="#800080" ALINK="#ff0000">
+
+<LEFT>
+  <TABLE BGCOLOR="#000000" NOSAVE >
+    <TR NOSAVE>
+      <TD NOSAVE>
+        <img src="../images/inet_logo.gif" align=absleft><B><FONT SIZE=+4>
+      </TD>
+
+      <TD NOSAVE>
+        <applet
+          code=buttons.class
+          name=buttons
+          width=600
+          height=40 >
+	    <param name="fontface" value="Helvetica">
+            <param name="fontsize" value="16">
+	    <param name="b1" value="Welcome|../pages/welcome.html|University of Geneva">
+	    <param name="b2" value="Email Configuration|../pages/configuration.html|How you configure your personnal email with Netscape or Internet Explorer">
+	    <param name="b3" value="Address IP|../pages/addressIP.html|Instruction to connecting">
+	    <param name="b4" value="Applications|../pages/application.html|Applications">
+	    <param name="b5" value="Sponsors|../pages/sponsor.html|List of sponsor">
+
+	    <param name="targetwindow" value="wmain">
+	    <param name="bgcolor" value="#000000">
+	    <param name="fc3" value="#00ff00">
+
+            <A HREF="../pages/welcome.html" target="wmain">Welcome</A> |
+            <A HREF="../pages/configuration.html" target="wmain">Email configuration</A> |
+            <A HREF="../pages/addressIP.html"  target="wmain">Address IP</A> |
+            <A HREF="../pages/application.html"  target="wmain">Application</A> | 
+            <A HREF="../pages/sponsor.html"  target="wmain">Sponsor</A><p> 
+       </applet>
+     </TD>
+   </TR>
+ </TABLE>
+</LEFT>
+
+</BODY>
+</NOFRAMES>
+
+</FRAMESET>
+</body>
+</html>

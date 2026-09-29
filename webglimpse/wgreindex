@@ -1,0 +1,46 @@
+#!/usr/bin/sh
+
+
+# CRONFILE FOR ARCHIVE IN DIRECTORY /export/soft/apache/htdocs/webglimpse
+
+quiet=""
+if [ "$1" = "-q" ] ; then
+  quiet="-q"
+fi
+
+# create a file to insure that no one searches during an index
+touch /export/soft/apache/htdocs/webglimpse/indexing-in-progress
+
+# delete the search boxes in all current files (filelist may change)
+/export/soft/webglimpse/addsearch /export/soft/apache/htdocs/webglimpse -r $quiet
+
+# Do the retrieving
+/export/soft/webglimpse/makenh /export/soft/apache/htdocs/webglimpse $quiet
+
+# put the search box in the html files -- will check config file
+#  and will not do anything if not wanted
+/export/soft/webglimpse/addsearch /export/soft/apache/htdocs/webglimpse
+
+# Do the indexing
+if [ "$quiet" = "-q" ] ; then
+   /usr/bin/cat /export/soft/apache/htdocs/webglimpse/.wg_toindex | /local/bin/glimpseindex -H /export/soft/apache/htdocs/webglimpse -o -t -h -X -U -f -C -F > /dev/null
+
+else
+   /usr/bin/cat /export/soft/apache/htdocs/webglimpse/.wg_toindex | /local/bin/glimpseindex -H /export/soft/apache/htdocs/webglimpse -o -t -h -X -U -f -C -F
+
+fi
+
+# Compress neighborhood files
+if [ "$quiet" = "-q" ] ; then
+  /usr/bin/cat /export/soft/apache/htdocs/webglimpse/.wg_madenh | /local/bin/wgconvert -H /export/soft/apache/htdocs/webglimpse -U -P .nh. -F -ni | grep -v "^hash_misses=0"
+else
+  /usr/bin/cat /export/soft/apache/htdocs/webglimpse/.wg_madenh | /local/bin/wgconvert -H /export/soft/apache/htdocs/webglimpse -U -P .nh. -F -ni
+fi
+
+# now change the directory and set the permissions
+cd /export/soft/apache/htdocs/webglimpse
+chmod a+r .glimpse_*
+
+# remove the locking file
+/bin/rm -f /export/soft/apache/htdocs/webglimpse/indexing-in-progress
+
