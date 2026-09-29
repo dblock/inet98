@@ -34,7 +34,7 @@ The site, `www.inet98.ch`, was the attendees' guide to the conference network. I
 
 [app/original/](app/original/) holds the 1998 source. [app/ported/](app/ported/) holds a Free Pascal and Lazarus port that builds and runs on macOS under Wine. See [app/README.md](app/README.md) for details.
 
-![Inet 98 Launcher](app/inet98-launcher.png)
+![Inet 98 Launcher demo](app/inet98-launcher.gif)
 
 ## References
 
