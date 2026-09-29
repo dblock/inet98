@@ -8,7 +8,7 @@ This copy of the site is dated 14 July 1998, a week before the conference opened
 
 ## The Website
 
-The site, `www.inet98.ch`, was the attendees' guide to the conference network. It was written by the CUI team. You can browse it today at [dblock.github.io/inet98](https://dblock.github.io/inet98/), served from [dblock/inet98](https://github.com/dblock/inet98).
+The site, `www.inet98.ch`, was the attendees' guide to the conference network. It was written by the CUI team, much of it by [Daniel Doubrovkine](https://github.com/dblock) (dB.). You can browse it today at [dblock.github.io/inet98](https://dblock.github.io/inet98/), served from [dblock/inet98](https://github.com/dblock/inet98).
 
 * [index.html](index.html) is a frameset. At the top is a Java applet button bar, from [buttoncontrol/](buttoncontrol/).
 * [pages/welcome.html](pages/welcome.html) introduces the team. [pages/sponsor.html](pages/sponsor.html) lists the sponsors: CUI, the University of Geneva, SWITCH, Sun, Cisco, Newbridge, DANTE, Incom, Apple, Anixter and others.
